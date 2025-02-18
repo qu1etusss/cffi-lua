@@ -28,4 +28,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: build-artifacts
-          path: ./build
+          path: D:\a\cffi-lua\cffi-lua\build-5.4.2
