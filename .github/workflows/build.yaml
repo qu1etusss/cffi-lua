@@ -25,7 +25,7 @@ jobs:
         run: bash ./.ci/build-cffi-windows
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: build-artifacts
           path: ./build
